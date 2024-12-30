@@ -1,0 +1,8 @@
+Reasons for choosing Dijkstra's Algorithm:
+
+    1. Time complexity: Dijkstra's algorithm has a time complexity of O(|E|log|V|). 
+                        The logarithmic factor in Dijkstra's algorithm makes it more efficient for large graphs.
+    2. Space complexity: Dijkstra's has a space complexity of O(|V|), but Dijkstra's algorithm uses a binary heap to store the vertices with the shortest 
+                        distance, which requires less memory than Bellman-Ford or Floyd Warshalls algorithm's table-based approach.
+    3. Optimality: Dijkstra's algorithm is guaranteed to find the optimal solution (i.e., the shortest path).
+    4. Negative Cycles: In our use case, Negative Cycles aren't possible, therefore it is perfectly logical to use Dijkstra's Algorithm.
